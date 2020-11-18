@@ -1,0 +1,26 @@
+{
+    "full_name": "John Q. Doe",
+    "email": "jdoe@example.tld",
+    "github_username": "jdoe",
+    "company_name": "Foobar Inc.",
+    "company_url": "https://foo.bar",
+    "year": "{% now 'utc', '%Y' %}",
+    "project_name": "My New Packer Script",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "Packer script to build .",
+    "version": "0.1.0",
+    "create_author_file": "y",
+    "open_source_license": [
+        "MIT", 
+        "BSD license", 
+        "ISC license", 
+        "Apache Software License 2.0", 
+        "GNU General Public License v3", 
+        "Not open source", 
+        "Not sure"
+    ],
+    "_extensions": [
+        "jinja2_time.TimeExtension",
+        "cookiecutter.extensions.SlugifyExtension"
+    ]
+}
