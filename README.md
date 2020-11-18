@@ -1,7 +1,5 @@
 # Cookiecutter PyPackage
-
-.. image:: https://travis-ci.org/audreyr/cookiecutter-pypackage.svg?branch=master
-    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage     
+[![GitHub Super-Linter](https://github.com/Red-Keep/cookiecutter_packer/workflows/Super-Linter/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 Cookiecutter_ template for a Python package.
 
