@@ -9,7 +9,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at https://github.com/jasimmonsv/cookiecutter-packer/issues
+Report bugs at [project repo](https://github.com/jasimmonsv/cookiecutter-packer/issues)
 
 If you are reporting a bug, please include:
 
@@ -34,7 +34,7 @@ official docs, in docstrings, or even on the web in blog posts, articles, and su
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/jasimmonsv/cookiecutter-packer/issues.
+The best way to send feedback is to file an issue in the project [repo](https://github.com/jasimmonsv/cookiecutter-packer/issues).
 
 If you are proposing a new feature:
 
@@ -43,7 +43,7 @@ If you are proposing a new feature:
 * Remember that this is a volunteer-driven project, and that contributions
   are welcome :)
 
-## Get Started!
+## Get Started
 
 Ready to contribute? Here's how to set up `cookiecutter-packer` for local development. Please note this documentation assumes
 you already have `Git` installed and ready to go.
