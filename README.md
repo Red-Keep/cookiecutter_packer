@@ -1,6 +1,4 @@
-======================
-Cookiecutter PyPackage
-======================
+# Cookiecutter PyPackage
 
 .. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
      :target: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/
@@ -15,8 +13,7 @@ Cookiecutter_ template for a Python package.
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 
-Features
---------
+## Features
 
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``py.test``
 * Travis-CI_: Ready for Travis Continuous Integration testing
@@ -28,8 +25,7 @@ Features
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 
-Build Status
--------------
+## Build Status
 
 Linux:
 
@@ -43,8 +39,7 @@ Windows:
     :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
     :alt: Windows build status on Appveyor
 
-Quickstart
-----------
+## Quickstart
 
 Install the latest Cookiecutter if you haven't installed it yet (this requires
 Cookiecutter 1.4.0 or higher)::
@@ -76,13 +71,11 @@ For more details, see the `cookiecutter-pypackage tutorial`_.
 
 .. _`cookiecutter-pypackage tutorial`: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 
-Not Exactly What You Want?
---------------------------
+## Not Exactly What You Want?
 
 Don't worry, you have options:
 
-Similar Cookiecutter Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Similar Cookiecutter Templates
 
 * `Nekroze/cookiecutter-pypackage`_: A fork of this with a PyTest test runner,
   strict flake8 checking with Travis/Tox, and some docs and `setup.py` differences.
@@ -99,8 +92,7 @@ Similar Cookiecutter Templates
 * Also see the `network`_ and `family tree`_ for this repo. (If you find
   anything that should be listed here, please add it and send a pull request!)
   
-Support this Project
-~~~~~~~~~~~~~~~~~~~~~
+### Support this Project
 
 You can take our detailed course that covers all the features of this template, which has the added bonus of funding this project:
 
@@ -118,8 +110,7 @@ También disponible en español:
    :alt: Creating and Distributing Python Packages ES
    :target: https://twoscoopspress.thinkific.com/courses/creating-and-distributing-python-packages-es
 
-Fork This / Create Your Own
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Fork This / Create Your Own
 
 If you have differences in your preferred setup, I encourage you to fork this
 to create your own version. Or create your own; it doesn't strictly have to
@@ -131,8 +122,7 @@ be a fork.
 * It's up to you whether or not to rename your fork/own version. Do whatever
   you think sounds good.
 
-Or Submit a Pull Request
-~~~~~~~~~~~~~~~~~~~~~~~~
+### Or Submit a Pull Request
 
 I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
