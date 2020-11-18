@@ -12,11 +12,12 @@
     "create_author_file": "y",
     "open_source_license": [
         "MIT", 
-        "BSD license", 
-        "ISC license", 
-        "Apache Software License 2.0", 
-        "GNU General Public License v3", 
-        "Not open source", 
+        "BSD-2-Clause", 
+        "BSD-3-Clause", 
+        "BSD-4-Clause", 
+        "ISC", 
+        "Apache-2.0", 
+        "GPL-3.0", 
         "Not sure"
     ],
     "_extensions": [
