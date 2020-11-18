@@ -36,7 +36,7 @@ year = datetime.now().year
 license_url = 'https://raw.githubusercontent.com/github/choosealicense.com/gh-pages/_licenses/{}.txt'.format(license_type.lower())
 if license_type == 'Not Sure':
     license_text = ('All rights reserved. No License offered.\n'
-               'Copyright (c) {year} {owner}').format(year=year, owner=owner)
+                    'Copyright (c) {year} {owner}').format(year=year, owner=owner)
 else:
     license = requests.get(license_url)
     license_text = process_license_text(license.text)

@@ -41,8 +41,7 @@ If you are proposing a feature:
 
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+* Remember that this is a volunteer-driven project, and that contributions are welcome :)
 
 ## Get Started!
 
@@ -57,10 +56,9 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for 
     ```bash
     $ git checkout -b name-of-your-bugfix-or-feature
     ```
-   Now you can make your changes locally.
+    Now you can make your changes locally.
 
-5. When you're done making changes, check that your changes pass lint and the
-   tests:
+5. When you're done making changes, check that your changes pass lint and the tests:
 
     $ python setup.py test or py.test
     $ tox
@@ -78,12 +76,8 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.project_slug }}` for 
 Before you submit a pull request, check that it meets these guidelines:
 
 1. The pull request should include tests.
-2. If the pull request adds functionality, the docs should be updated. Put
-   your new functionality into a function with a docstring, and add the
-   feature to the list in README.rst.
-3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check
-   https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/pull_requests
-   and make sure that the tests pass for all supported Python versions.
+2. If the pull request adds functionality, the docs should be updated. Put your new functionality into a function with a docstring, and add the feature to the list in README.rst.
+3. The pull request should work for Python 2.7, 3.4, 3.5 and 3.6, and for PyPy. Check https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/pull_requests and make sure that the tests pass for all supported Python versions.
 
 ## Tips
 
@@ -101,8 +95,10 @@ A reminder for the maintainers on how to deploy.
 Make sure all your changes are committed (including an entry in HISTORY.rst).
 Then run::
 
+```bash
 $ bumpversion patch # possible: major / minor / patch
 $ git push
 $ git push --tags
+```
 
 Travis will then deploy to PyPI if tests pass.
