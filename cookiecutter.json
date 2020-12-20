@@ -7,7 +7,7 @@
     "year": "{% now 'utc', '%Y' %}",
     "project_name": "My New Packer Script",
     "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "Packer script to build .",
+    "project_short_description": "Packer script to build",
     "version": "0.1.0",
     "create_author_file": "y",
     "open_source_license": [
