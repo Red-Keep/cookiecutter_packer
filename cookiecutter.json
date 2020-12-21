@@ -12,10 +12,8 @@
     "create_author_file": "y",
     "open_source_license": [
         "MIT",
-        "BSD-2-Clause",
-        "BSD-3-Clause",
-        "BSD-4-Clause",
-        "ISC",
+        "BSD license",
+        "ISC license",
         "Apache-2.0",
         "GPL-3.0",
         "Not sure"
